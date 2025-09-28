@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Profil Pribadi</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 20px;">
+
+  <!-- Div sebagai container utama -->
+  <div>
+
+    <!-- Judul Profil-->
+    <h1>Profil Pribadi</h1>
+
+    <!-- Tabel untuk menampilkan foto profil & video dalam baris/kolom  -->
+    <table>
+        <tr>
+        <!-- foto -->
+            <td align="center">
+            <img src="mypoto.jpg" alt="Foto Profil" width="200" height="200"><br>
+            <b>Foto Profil</b>
+            </td>
+
+        <!-- video -->
+            <td align="center">
+            <iframe width="400" height="225"
+                src="https://www.youtube.com/embed/dDYk0zHv1pg"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe><br>
+            <b>Video Perkenalan</b>
+            </td>
+        </tr>
+    </table>
+
+
+
+    <!-- tentang saya -->
+    <h2>Tentang Saya</h2>
+    <p>Perkenalkan nama saya Galih Samudra Pinarindra dengan NIM 103032300079</p>
+    <p>Saya dari kelas IT-47-02</p>
+    
+
+    <!-- keterampilan (menggunakan th, tr, td) -->
+    <h2>Keterampilan</h2>
+    <table border="1" cellpadding="5" cellspacing="0">
+      <tr>
+        <!-- th untuk judul kolom -->
+        <th>Keterampilan</th>
+        <th>Tingkat</th>
+      </tr>
+      <tr>
+        <!-- td untuk mengisi data pada kolom -->
+        <td>HTML/CSS</td>
+        <td>Mahir</td>
+      </tr>
+      <tr>
+        <td>JavaScript</td>
+        <td>Menengah</td>
+      </tr>
+      <tr>
+        <td>Python</td>
+        <td>Pemula</td>
+      </tr>
+    </table>
+
+    <!-- form Hubungi Saya-->
+    <h2>Hubungi Saya</h2>
+    <!-- Form untuk input data dari user -->
+    <form>
+      <!-- Input type text untuk nama -->
+      Nama: <input type="text" name="nama"><br><br>
+
+      <!-- Input type email untuk alamat email -->
+      Email: <input type="email" name="email"><br><br>
+
+      <!-- Textarea untuk pesan lebih panjang -->
+      Pesan:<br>
+      <textarea name="pesan" rows="4" cols="30"></textarea><br><br>
+
+      <!-- Button untuk submit form -->
+      <button type="submit">Kirim Pesan</button>
+    </form>
+
+    <!-- Bagian link sosial media (menggunakan tag <a>) -->
+    <h2>Media Sosial:</h2>
+    <p> | 
+      <a href="https://github.com" target="_blank">GitHub</a> | 
+      <a href="https://twitter.com" target="_blank">Twitter</a>
+    </p>
+
+  </div>
+</body>
+</html>
